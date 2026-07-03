@@ -45,7 +45,7 @@ neoForge {
 
 dependencies {
     // Sophisticated Core is used at compile time (feeding-upgrade mixin) — resolved from Modrinth's maven so cloud CI can build without the local jar.
-    compileOnly "maven.modrinth:sophisticated-core:1.21.1-1.4.49.1966"
+    compileOnly "maven.modrinth:sophisticated-core:26.2-1.4.74.2087"
     // Sophisticated Backpacks is referenced only via mixin string targets (no compile-time import), so it needs no compile dependency here.
 }
 
